@@ -9,9 +9,17 @@ public class Student {
     private int grade;
 
     public Student(String name, String major, int grade){
-        this.name = name;
-        this.major = major;
-        this.grade = grade;
+//        this.name = name;
+//        this.major = major;
+//        this.grade = grade;
+        try{
+            this.setGrade(grade);
+        }
+        catch (InvalidGradeException e){
+            System.out.println("Error Message!\n" + e.getMessage());
+        }
+        setMajor(major);
+        setName(name);
     }
 
     public int getStudentId() {
