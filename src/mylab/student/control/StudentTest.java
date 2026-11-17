@@ -11,7 +11,7 @@ public class StudentTest {
             student.setGrade(5);
         }
         catch (InvalidGradeException e){
-            System.out.println("Error Message! " + e.getMessage() + e.getCurrentGrade());
+            System.out.println("Error Message!\n" + e.getMessage());
         }
 
     }
