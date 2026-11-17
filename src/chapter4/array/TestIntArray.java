@@ -3,7 +3,7 @@ package chapter4.array;
 public class TestIntArray {
 
 	public static void main(String[] args) {
-		//TODO int 타입의 1차원 배열을 연습해봄 완성을 덜함
+        //TODO int 타입의 1차원 배열을 연습해봄 완성을 덜함
 		
 		//int 타입의 배열을 선언
 		int[] nums;

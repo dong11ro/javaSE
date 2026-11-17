@@ -7,4 +7,12 @@ public class InsufficientBalanceException extends Exception{
     //현재 잔액
     private int currentBalance;
 
+    public InsufficientBalanceException(String message, int currentBalance){
+        super(message);
+        this.currentBalance = currentBalance;
+    }
+    public int getCurrentBalance(){
+        return currentBalance;
+    }
+
 }
