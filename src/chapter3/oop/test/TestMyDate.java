@@ -1,4 +1,4 @@
-package chap	ter3.oop.test;
+package chapter3.oop.test;
 
 import chapter3.oop.MyDate;
 
@@ -13,15 +13,15 @@ public class TestMyDate {
 		setDay(day);
 	}
 	
-	public void getYear(int year) {
-		return year;
-	}
-	public void getMonth(int month) {
-		return month;
-	}
-	public void getDay(int day) {
-		return day;
-	}
+//	public void getYear(int year) {
+//		return year;
+//	}
+//	public void getMonth(int month) {
+//		return month;
+//	}
+//	public void getDay(int day) {
+//		return day;
+//	}
 	
 
 	public void setYear(int year) {

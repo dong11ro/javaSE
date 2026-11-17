@@ -1,6 +1,6 @@
 package chapter3.oop.test;
 
-import chapter3.oop.TestMyDate;
+//import chapter3.oop.TestMyDate;
 
 public class MyDateTest {
 	public static void main(String[] args) {
