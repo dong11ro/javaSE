@@ -13,9 +13,9 @@ public class Account {
     public void setAcctId(String custId){
         this.custId = custId;
     }
-    public void setBalance(int balance){
-        this.balance = balance;
-    }
+//    public void setBalance(int balance){
+//        this.balance = balance;
+//    }
     public String getCustId(){
         return this.custId;
     }
@@ -24,5 +24,12 @@ public class Account {
     }
     public int getBalance(){
         return this.balance;
+    }
+
+    public void deposit(int amount){
+        this.balance += amount;
+    }
+    public void withdraw(int amount){
+        this.balance -= amount;
     }
 }
