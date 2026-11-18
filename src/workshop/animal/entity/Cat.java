@@ -8,8 +8,7 @@ public class Cat extends Animal implements Pet{
         this.name = name;
     }
     public Cat(){
-        super(4);
-        this.name = "abandoned";
+        this("abandoned");
     }
     public void setName(String name){
         this.name = name;
