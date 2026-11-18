@@ -97,5 +97,7 @@ public class Library {
         }
         return result;
     }
-
+    public int librarySize(){
+        return library.size();
+    }
 }
