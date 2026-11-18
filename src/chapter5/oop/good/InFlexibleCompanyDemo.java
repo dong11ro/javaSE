@@ -6,6 +6,7 @@ public class InFlexibleCompanyDemo {
         Employee mereClerk1 = new MereClerk("철수", 100);
         Employee mereClerk2 = new MereClerk("영희", 100);
 
+        //Polymorphism (다형성)
         Employee manager = new Manager("홍길동", 200, "인사부");
         Manager manager2 = new Manager("둘리", 250, "개발부");
 
@@ -22,7 +23,11 @@ public class InFlexibleCompanyDemo {
 //        Manager manager = new Manager("홍길동", 200);
 
 
-
+        // Employee 타입 배열 선언 Heterogeneous Collection
+        Employee[] emps = new Employee[3];
+        emps[0] = new MereClerk("철수", 100);
+        emps[1] = new MereClerk("영희", 100);
+        emps[2] = new Manager("둘리", 250, "개발부");
         System.out.println("현재 월급입니다.");
 
         System.out.println(mereClerk1.getName() + "의 현재 월급은 " + mereClerk1.getSalary() + " 만원 입니다.");
