@@ -28,9 +28,14 @@ public class InFlexibleCompanyDemo {
         emps[0] = new MereClerk("철수", 100);
         emps[1] = new MereClerk("영희", 100);
         emps[2] = new Manager("둘리", 250, "개발부");
-        System.out.println("현재 월급입니다.");
 
-        System.out.println(mereClerk1.getName() + "의 현재 월급은 " + mereClerk1.getSalary() + " 만원 입니다.");
+        for (Employee employee : emps) {
+            System.out.println("현재 월급입니다.");
+            System.out.println(employee.getName() + "의 현재 월급은 " + employee.getSalary() + " 만원 입니다.");
+
+        }
+
+
         System.out.println(mereClerk2.getName() + "의 현재 월급은 " + mereClerk2.getSalary() + " 만원 입니다.");
         System.out.println(manager.getName() + "의 현재 월급은 " + manager.getSalary() + " 만원 입니다.");
 
