@@ -59,10 +59,10 @@ public class ManageBook {
             rate = 0.6;
         }
         else if (pub instanceof ReferenceBook){
-            rate = 0.8;
+            rate = 0.9;
         }
         else if (pub instanceof Novel){
-            rate = 0.9;
+            rate = 0.8;
         }
         pub.setPrice((int)(pub.getPrice() * rate));
     }
