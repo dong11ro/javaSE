@@ -5,6 +5,7 @@ public class MereClerk extends Employee {
 		System.out.println("MereClerk default constructor 호출됨");
 	}
 
+
 	public MereClerk(String name, double salary) {
 //		this.name = name;
 //		this.salary = salary;
@@ -14,6 +15,7 @@ public class MereClerk extends Employee {
 	}
 	
 	//급여계산
+    @Override
 	public void manageSalary(double rate) {
 		salary = salary + salary*(rate/100);
 	}

@@ -1,12 +1,9 @@
 package chapter5.oop.bad;
 /* 관리자 클래스 */
-public class Manager {
-    String name;
-    double salary;
-    
+public class Manager extends Employee {
+
     public Manager (String name, double salary) {
-        this.name = name;
-        this.salary = salary;
+        super(name, salary);
     }
     
     public String getName() {
