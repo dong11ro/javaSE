@@ -69,13 +69,7 @@ public class Book extends Object{
 
     @Override
     public String toString(){
-        System.out.print("책 제목: " + this.title + "\t저자: " + this.author + "\tISBN: " + this.isbn +
-                "\t출판년도: " + this.publishYear + "\t대출 가능 여부: ");
-        if (this.isAvaliable){
-            System.out.println("가능");
-        }
-        else {
-            System.out.println("불가능");
-        }
+        return "책 제목: " + this.title + "\t저자: " + this.author + "\tISBN: " + this.isbn +
+                "\t출판년도: " + this.publishYear + "\t대출 가능 여부: " + (this.isAvaliable ? "가능" : "불가능");
     }
 }
