@@ -1,6 +1,5 @@
 package workshop.person.control;
 
-import com.sun.security.jgss.GSSUtil;
 import workshop.person.entitiy.PersonEntity;
 public class PersonManager {
     public PersonManager(){
